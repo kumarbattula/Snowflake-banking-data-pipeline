@@ -1,0 +1,8 @@
+create database banking_db;
+use banking_db;
+
+-- create separate schemas
+create schema raw;
+create scheme transfomed;
+create schema analytics;
+use banking_db.raw;
